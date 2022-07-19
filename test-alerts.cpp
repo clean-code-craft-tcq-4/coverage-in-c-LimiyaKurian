@@ -18,3 +18,9 @@ TEST_CASE("classify tmeperature breach") {
   REQUIRE(classifyTemperatureBreach(MED_ACTIVE_COOLING,10) == NORMAL);
   REQUIRE(classifyTemperatureBreach(MED_ACTIVE_COOLING,50) == TOO_HIGH);
 }
+
+TEST_CASE("CHECK AND ALERT") {
+  BatteryCharacter batteryChar;
+  batteryChar.coolingType = PASSIVE_COOLING;
+  assert(checkAndAlert(TO_CONTROLLER,batteryChar.coolingType,1);
+ }
