@@ -25,4 +25,5 @@ TEST_CASE("CHECK AND ALERT") {
   assert(checkAndAlert(TO_CONTROLLER,batteryChar,1));
   assert(checkAndAlert(TO_EMAIL,batteryChar,10));
   assert(checkAndAlert(TO_EMAIL,batteryChar,40));
+  assert(checkAndAlert(TO_EMAIL,batteryChar,-1));
  }
