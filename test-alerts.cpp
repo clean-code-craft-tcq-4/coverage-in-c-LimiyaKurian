@@ -22,5 +22,5 @@ TEST_CASE("classify tmeperature breach") {
 TEST_CASE("CHECK AND ALERT") {
   BatteryCharacter batteryChar;
   batteryChar.coolingType = PASSIVE_COOLING;
-  assert(checkAndAlert(TO_CONTROLLER,batteryChar.coolingType,1);
+  assert(checkAndAlert(TO_CONTROLLER,batteryChar,1));
  }
