@@ -24,4 +24,5 @@ TEST_CASE("CHECK AND ALERT") {
   batteryChar.coolingType = PASSIVE_COOLING;
   assert(checkAndAlert(TO_CONTROLLER,batteryChar,1));
   assert(checkAndAlert(TO_EMAIL,batteryChar,10));
+  assert(checkAndAlert(TO_EMAIL,batteryChar,40));
  }
